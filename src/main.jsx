@@ -20,6 +20,7 @@ import App from './App.jsx';
 import About from './about.jsx';
 import PageNotFound from './PageNot Found.jsx';
 import Recipe from './funComponents/recipe.jsx';
+import Parent from './contextapi/parent.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -29,7 +30,7 @@ createRoot(document.getElementById('root')).render(
   {/* <Parent/> */}
   {/* <Counter/>
   <Timing/> */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/about" element={<About />} />
@@ -39,6 +40,8 @@ createRoot(document.getElementById('root')).render(
 
          
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>, */}
+  {/* <Parent snaks="chips"/> */} 
+  <Parent/>
   </StrictMode>
 )
